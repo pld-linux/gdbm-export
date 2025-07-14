@@ -27,7 +27,7 @@ celu wczytania do nowego formatu GDBM.
 
 %prep
 %setup -q -n gdbm-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__libtoolize}
